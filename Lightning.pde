@@ -20,6 +20,10 @@ void draw()
     endX = startX + (int)(Math.random()*10);
     endY = startY + (int)(Math.random()*18)-9;
     line(startX,startY,endX,endY);
+    line(startX,startY-50,endX,endY-50);
+    line(startX,startY-25,endX,endY-25);
+    line(startX,startY-75,endX,endY-75);
+    line(startX,startY+25,endX,endY+25);
     startX = endX;
     startY = endY; 
   } 
